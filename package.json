@@ -1,0 +1,27 @@
+{
+  "name": "book-directory",
+  "version": "1.0.0",
+  "description": "For this project you can build a book directory, where you would need to create endpoints, using the 4 most basic methods: GET, POST, PUT and DELETE.",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
