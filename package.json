@@ -1,5 +1,5 @@
 {
-  "name": "book-directory",
+  "name": "books-directory",
   "version": "1.0.0",
   "description": "For this project you can build a book directory, where you would need to create endpoints, using the 4 most basic methods: GET, POST, PUT and DELETE.",
   "main": "index.js",
