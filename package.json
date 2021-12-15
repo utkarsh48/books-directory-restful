@@ -1,7 +1,7 @@
 {
   "name": "books-directory",
   "version": "1.0.0",
-  "description": "For this project you can build a book directory, where you would need to create endpoints, using the 4 most basic methods: GET, POST, PUT and DELETE.",
+  "description": "This project provide books directory RESTful api, for performing CRUD operations on books.",
   "main": "index.js",
   "dependencies": {
     "bcrypt": "^5.0.1",

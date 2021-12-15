@@ -1,5 +1,5 @@
 # Books Directory
-For this project you can build a book directory, where you would need to create endpoints, using the 4 most basic methods: GET, POST, PUT and DELETE.
+This project provide books directory RESTful api, for performing CRUD operations on books.
 
 Every request must follow pattern `https://<url to page>/api/<resource>`
 
@@ -109,3 +109,8 @@ eg:
 }
 ```
 It will return a JWT as a header "x-auth-token". Send this token with every request that requires authentication as a header "x-auth-token".
+
+#### Development information
+It requires 2 environment variables.
+- DBLink: mongoDB database link with username and password
+- JWTPrivateKey: For signing JWT tokens.
